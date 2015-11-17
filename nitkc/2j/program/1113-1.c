@@ -13,8 +13,7 @@ int main(void){
 
   srand((unsigned int)time(NULL));
 
-  fgets(buff, sizeof(buff), stdin);
-  sscanf(buff, "%d", &i);
+  scanf("%d", &i);
 
   if(i <= 0){
     fprintf(stderr, "HA???Kireso-----\n");
